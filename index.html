@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦈</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>Shark Attacks Map — 6,773 Global Shark Attack Incidents | Interactive Dashboard</title>
+    <meta name="description" content="Explore 6,773 shark attacks worldwide on an interactive map. Shark attack statistics by country, species, and year from the Global Shark Attack File (GSAF)." />
+    <meta name="keywords" content="shark attacks, shark attack map, shark attack statistics, shark attack data, shark species attacks, shark attacks by country, global shark attacks, GSAF, shark attack database" />
+    <link rel="canonical" href="https://sharkattackdashboard.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shark Attacks Map — 6,773 Global Shark Attack Incidents" />
+    <meta property="og:description" content="Interactive map and statistics of every recorded shark attack worldwide. Browse 6,773 incidents by country, species, activity, and year." />
+    <meta property="og:url" content="https://sharkattackdashboard.com/" />
+    <meta property="og:image" content="https://sharkattackdashboard.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Global Shark Attack Dashboard showing an interactive world map with shark attack incident markers" />
+    <meta property="og:site_name" content="Shark Attack Dashboard" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shark Attacks Map — 6,773 Global Shark Attack Incidents" />
+    <meta name="twitter:description" content="Interactive map and statistics of every recorded shark attack worldwide. Browse 6,773 incidents by country, species, activity, and year." />
+    <meta name="twitter:image" content="https://sharkattackdashboard.com/og-image.png" />
+    <meta name="twitter:image:alt" content="Global Shark Attack Dashboard showing an interactive world map with shark attack incident markers" />
+
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Shark Attack Dashboard" />
+    <meta name="theme-color" content="#071f3b" />
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "Global Shark Attack Database",
+      "description": "Comprehensive dataset of 6,773 recorded shark attack incidents worldwide, sourced from the Global Shark Attack File (GSAF). Includes location coordinates, species identification, fatality status, victim activity, and date information spanning from the 1900s to present day.",
+      "url": "https://sharkattackdashboard.com/",
+      "keywords": [
+        "shark attacks",
+        "shark attack data",
+        "shark attack statistics",
+        "shark attack map",
+        "shark species attacks",
+        "shark attacks by country",
+        "global shark attacks",
+        "GSAF"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "name": "Global Shark Attack File (GSAF)",
+        "url": "https://www.sharkattackfile.net/"
+      },
+      "temporalCoverage": "1900/..",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "variableMeasured": [
+        "Attack location (latitude, longitude)",
+        "Shark species",
+        "Fatality status",
+        "Victim activity",
+        "Date of incident",
+        "Country and region"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Shark Attack Dashboard",
+      "description": "Interactive global shark attack map and statistics dashboard with 6,773 recorded incidents from the GSAF database.",
+      "url": "https://sharkattackdashboard.com/",
+      "applicationCategory": "ReferenceApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many shark attacks happen each year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On average, there are approximately 70 to 100 unprovoked shark attacks reported worldwide each year, according to the International Shark Attack File. Of these, around 5 to 10 are fatal. The actual number may be higher due to unreported incidents in remote coastal areas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which country has the most shark attacks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The United States leads the world in recorded shark attacks, followed by Australia and South Africa. Within the US, Florida accounts for the highest number of incidents, particularly along the Atlantic coast. These three countries together account for the majority of all documented shark attacks globally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What shark species is responsible for the most attacks on humans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The three species most commonly involved in unprovoked shark attacks are the great white shark (Carcharodon carcharias), the tiger shark (Galeocerdo cuvier), and the bull shark (Carcharhinus leucas). The great white shark is responsible for the most recorded attacks, though many incidents involve unidentified species."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can you reduce your risk of a shark attack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To reduce shark attack risk: avoid swimming at dawn, dusk, or night when sharks are most active; stay out of the water if bleeding; avoid areas near fishing activity or where baitfish are present; swim in groups; avoid wearing shiny jewelry that may resemble fish scales; and stay close to shore. Always heed local shark warnings and flag systems."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Preconnect to tile CDN for map performance -->
+    <link rel="preconnect" href="https://a.tile.openstreetmap.org" crossorigin />
+    <link rel="preconnect" href="https://b.tile.openstreetmap.org" crossorigin />
+    <link rel="preconnect" href="https://c.tile.openstreetmap.org" crossorigin />
+    <link rel="dns-prefetch" href="https://a.tile.openstreetmap.org" />
+    <link rel="dns-prefetch" href="https://b.tile.openstreetmap.org" />
+    <link rel="dns-prefetch" href="https://c.tile.openstreetmap.org" />
+  </head>
+  <body class="bg-shark-950 text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Noscript fallback with rich content for crawlers -->
+    <noscript>
+      <div style="background:#071f3b;color:#e0effe;font-family:system-ui,sans-serif;padding:40px 20px;max-width:900px;margin:0 auto;line-height:1.7;">
+        <h1 style="font-size:2rem;color:#fff;margin-bottom:12px;">Global Shark Attack Map &amp; Database</h1>
+        <p style="font-size:1.1rem;margin-bottom:24px;">
+          Explore <strong>6,773 shark attacks</strong> worldwide on an interactive map. This dashboard visualizes every recorded shark attack incident from the
+          <a href="https://www.sharkattackfile.net/" style="color:#2dd4bf;">Global Shark Attack File (GSAF)</a>, the most comprehensive shark attack database available.
+        </p>
+
+        <h2 style="font-size:1.4rem;color:#fff;margin-top:32px;">Shark Attack Statistics</h2>
+        <p>The GSAF dataset contains 6,773 documented shark attack incidents spanning from the early 1900s to the present. These attacks occurred across more than 150 countries and involved dozens of identified shark species. The data reveals important patterns in shark-human interactions over more than a century.</p>
+
+        <h2 style="font-size:1.4rem;color:#fff;margin-top:32px;">Shark Attacks by Country</h2>
+        <p>The United States leads in total recorded shark attacks, followed by Australia, South Africa, Brazil, and the Bahamas. Florida, particularly Volusia County, accounts for more shark attacks than any other region in the world. In Australia, New South Wales and Queensland report the highest numbers.</p>
+
+        <h2 style="font-size:1.4rem;color:#fff;margin-top:32px;">Most Dangerous Shark Species</h2>
+        <p>The great white shark, tiger shark, and bull shark are the three species most frequently involved in unprovoked attacks on humans. The great white shark (Carcharodon carcharias) accounts for the most recorded fatal attacks. Bull sharks are considered especially dangerous due to their ability to thrive in both salt and freshwater environments.</p>
+
+        <h2 style="font-size:1.4rem;color:#fff;margin-top:32px;">Shark Attack Prevention</h2>
+        <p>Reduce your risk of shark encounters by swimming during daylight hours, avoiding murky water, staying in groups, and keeping away from fishing areas. Heed local shark advisories and beach flag warning systems. Statistical risk remains extremely low — you are far more likely to be struck by lightning than bitten by a shark.</p>
+
+        <h2 style="font-size:1.4rem;color:#fff;margin-top:32px;">Frequently Asked Questions</h2>
+        <h3 style="color:#2dd4bf;">How many shark attacks happen each year?</h3>
+        <p>On average, 70 to 100 unprovoked shark attacks are reported worldwide each year, with approximately 5 to 10 being fatal.</p>
+        <h3 style="color:#2dd4bf;">Which country has the most shark attacks?</h3>
+        <p>The United States leads in total recorded attacks, followed by Australia and South Africa.</p>
+        <h3 style="color:#2dd4bf;">What shark species is most dangerous to humans?</h3>
+        <p>The great white shark, tiger shark, and bull shark account for the majority of attacks on humans.</p>
+
+        <p style="margin-top:32px;color:#7cc5fc;font-size:0.9rem;">
+          Data source: <a href="https://www.sharkattackfile.net/" style="color:#2dd4bf;">Global Shark Attack File (GSAF)</a>.
+          Please enable JavaScript to use the interactive shark attack map and dashboard.
+        </p>
+      </div>
+    </noscript>
+  </body>
+</html>

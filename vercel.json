@@ -1,0 +1,10 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "rewrites": [
+    { "source": "/api/attacks", "destination": "/api/attacks.json" },
+    { "source": "/api/stats", "destination": "/api/stats.json" },
+    { "source": "/api/filters", "destination": "/api/filters.json" },
+    { "source": "/api/details", "destination": "/api/details.json" }
+  ]
+}
